@@ -15,6 +15,7 @@
 
 ### Errors encountered
 * Encoutered cors issue since the API is third party
+* *Remove cors in chrome : https://medium.com/@dmadan86/run-chrome-browser-without-cors-by-disabling-web-security-d124ad4dd2cf
 
 
 ### Mistakes
