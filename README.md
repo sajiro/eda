@@ -7,7 +7,7 @@
 
 ###  Library/Tools used
 * Vite
-* React
+* React / Typescript
 * React query
 * Mapbox GL
 * Shadcn (Radix UI, Tailwind CSS)
