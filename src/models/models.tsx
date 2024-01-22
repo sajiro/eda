@@ -4,14 +4,14 @@ export type TokenData = {
   token_type: string;
 };
 
+export type Coordinates = number[][][];
+
 type Polygon = {
   type: string;
-  coordinates: number[][][];
+  coordinates: Coordinates;
 };
 
 export type SearchData = {
   datetime: string;
   intersects?: Polygon;
 };
-
-export type Coordinates = number[][][];
