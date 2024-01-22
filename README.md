@@ -5,7 +5,7 @@ How to start the app: run the following commands in your terminal
 * npm install
 * npm run dev
 
-Library/Tools used
+## Library/Tools used
 -Vite
 -React
 -React query
