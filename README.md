@@ -27,7 +27,7 @@
 * Tokens and other sensitive informations should be in .ENV file (better in server)
 * Unit test - dont have enough time to add more
 * UI add control to get current location.
-* Search functionality - Should have the ability to search a string that the can filter like elastic search. 
+* Search functionality -  users should have the capability to search for a specific string, and consider incorporating filtering options akin to Elastic Search for a more refined and efficient search experience.. 
 
   
 ### Mistakes
