@@ -6,14 +6,14 @@ How to start the app: run the following commands in your terminal
 * npm run dev
 
 ## Library/Tools used
--Vite
--React
--React query
--Mapbox GL
--Shadcn (Radix UI, Tailwind CSS)
+* Vite
+* React
+* React query
+* Mapbox GL
+* Shadcn (Radix UI, Tailwind CSS)
 
-Errors encountered
--Encoutered cors issue since the API is third party
+### Errors encountered
+* Encoutered cors issue since the API is third party
 
 Mistakes
 -Tried Shadcn for the first time. encountered issues since is unfamiliar to me(causes time to debug issues on config with Vite and Ts).
