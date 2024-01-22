@@ -66,16 +66,15 @@ const MapScreenComponent = ({ token }: MapScreenProps) => {
 
   const onHandleDateChange = useCallback(
     (date: DateRange | undefined, isSearchNow: boolean) => {
-      if (date) {
-        if (isSearchNow) {
-          const searchValues: SearchData = {
-            datetime: convertDateRangeToString(date),
-          };
-          mutation.mutate(searchValues);
-          setGeometry(null);
-        }
-        setDatetime(date);
+      if (!date) return;
+      if (isSearchNow) {
+        const searchValues: SearchData = {
+          datetime: convertDateRangeToString(date),
+        };
+        mutation.mutate(searchValues);
+        setGeometry(null);
       }
+      setDatetime(date);
     },
     [mutation]
   );
