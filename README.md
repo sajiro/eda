@@ -1,6 +1,7 @@
 # Earth daily analytics demo
 
 ### How to start the app: run the following commands in your terminal
+* git clone git@github.com:sajiro/eda.git
 * npm install
 * npm run dev
 
@@ -23,10 +24,12 @@
 * Loading list should use skeleton loader
 * Tokens and other sensitive informations should be in .ENV file (better in server)
 * Unit test - dont have enough time to add more
+* Types - using "as <type>" is a bad practice since your telling TS you know better
 
   
 ### Mistakes
 * Attempting Shadcn for the first time posed challenges for me as it was unfamiliar, resulting in additional time spent debugging configuration issues with Vite and TypeScript.
+* Due to time constraint - , Temporarily used "as <type>" in TypeScript is considered a suboptimal practice because it essentially asserts to TypeScript that you know better than the type system. This can undermine the benefits of static typing, better use typeguards instead
 * Spend time on playing around with the API and trying out posible combinations for searching(since im not sure about the abstraction of the API)
 * After evaluating the problem or task at hand and planning the necessary tools and libraries, I begin the UI development. However, upon reflection, I realize the importance of concurrently initiating work on the API services within the frontend. This would provide valuable insights into the anticipated data and values, aiding in a more cohesive development process for both functionality and user interface.
 
