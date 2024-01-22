@@ -26,6 +26,8 @@
 * Loading list should use skeleton loader
 * Tokens and other sensitive informations should be in .ENV file (better in server)
 * Unit test - dont have enough time to add more
+* UI add control to get current location.
+* Search functionality - Should have the ability to search a string that the can filter like elastic search. 
 
   
 ### Mistakes
