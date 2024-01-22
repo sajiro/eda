@@ -2,8 +2,8 @@
 
 How to start the app: run the following commands in your terminal
 
-- npm install
-- npm run dev
+* npm install
+* npm run dev
 
 Library/Tools used
 -Vite
