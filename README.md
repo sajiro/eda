@@ -13,6 +13,8 @@
 * Mapbox GL
 * Shadcn (Radix UI, Tailwind CSS)
 * Jest / React testing library
+* Postman
+* Charles
 
 
 ### Errors encountered
