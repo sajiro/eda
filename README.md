@@ -24,7 +24,6 @@
 * Loading list should use skeleton loader
 * Tokens and other sensitive informations should be in .ENV file (better in server)
 * Unit test - dont have enough time to add more
-* Types - using "as <type>" is a bad practice since your telling TS you know better
 
   
 ### Mistakes
