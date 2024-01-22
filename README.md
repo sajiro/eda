@@ -11,6 +11,7 @@
 * React query
 * Mapbox GL
 * Shadcn (Radix UI, Tailwind CSS)
+* Jest / React testing library
 
 
 ### Errors encountered
